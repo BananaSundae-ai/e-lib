@@ -22,7 +22,7 @@ export default function Login({ onLogin }) {
 
     onLogin(userData); // save logged-in user in App state
 
-    // Redirect to dashboard
+    // Redirect to dashboard (role-based content will be handled there)
     navigate("/dashboard");
   };
 
